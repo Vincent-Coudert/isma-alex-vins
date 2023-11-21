@@ -1,11 +1,46 @@
-
-body{margin: 0;}
-
-header{ background-color: dodgerblue;
-color:white;}
-
-main {border: solid;
+body {
+  margin: 0;
+  font-size: 16px;
 }
 
-footer{background-color: dodgerblue;
-color: white;}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: dodgerblue;
+    color: white;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin-right: 2rem;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 1.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+nav ul a:hover {
+  text-decoration: underline;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+main {
+  border: 2px solid black;
+}
+
+footer {
+  background-color: dodgerblue;
+  color: white;
+}
