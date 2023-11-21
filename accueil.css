@@ -3,8 +3,11 @@ body {
   font-size: 16px;
 }
 
+/* Début du header */
+
 header {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     background-color: dodgerblue;
     color: white;
@@ -36,9 +39,27 @@ nav ul a:hover {
   font-weight: 700;
 }
 
-main {
-  border: 2px solid black;
+/* Fin du header */
+
+/* Début du main */
+
+h1 {
+  font-family: 'Roboto', sans-serif;
 }
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  line-height: 0.5;
+}
+
+/* Fin du main */
 
 footer {
   background-color: dodgerblue;
